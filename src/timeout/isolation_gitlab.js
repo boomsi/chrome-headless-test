@@ -1,5 +1,7 @@
 const puppeteer = require("puppeteer");
 
+const IP = 'http://xx.xx.x.x'
+
 class SpiderPage {
   constructor({ target, token, deep = 1, cookie }) {
     this.options = {
@@ -94,7 +96,7 @@ class SpiderPage {
 }
 
 const spiderFunc = new SpiderPage({
-  target: "http://10.0.8.75",
+  target: IP,
   cookie: [
     { name: "csrftoken", value: "HtlbHXDjqRSu9r3QTIOKIKQZ3MajnVmM" },
     { name: "sessionid", value: "e6dqhmgbanfukkfh6ei6qpifi7sf8to4" },

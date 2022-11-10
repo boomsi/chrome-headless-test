@@ -107,7 +107,7 @@ class SpiderPage {
         // console.log("加载存在死循环的页面");
         // const page11 = await browser.newPage();
         // await page11
-        //   .goto("http://10.0.23.80:8080", { timeout: 5000 })
+        //   .goto("http://xx.x.xx.x:8080", { timeout: 5000 })
         //   .catch(async (err) => {
         //     console.log(err, "1111");
         //     await page11.close();

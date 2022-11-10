@@ -1,5 +1,7 @@
 const puppeteer = require("puppeteer");
 
+const IP = 'http://xx.xx.xx.xx'
+
 class Cookies {
   constructor({ target, cookie }) {
     this.target = target;
@@ -58,7 +60,7 @@ class Cookies {
 }
 
 const func = new Cookies({
-  target: "http://10.0.8.75",
+  target: IP,
   cookie: [
     { name: "csrftoken", value: "Jga5iQOATSEqKNeC7AdRiG5c5jyc1Lxc" },
     { name: "sessionid", value: "npq4xblg0uu5ycfbme9jnxutc77lo1za" },

@@ -185,8 +185,6 @@ const spider_sub_page = new Spider({
   browserOptions: { headless: true, devtools: true },
   scanOptions: [
     {
-      // target: "http://127.0.0.1:8000",
-      // target: "http://10.0.8.75",
       target: "https://segmentfault.com/q/1010000003105895",
       // cookie: [
       //   { name: "csrftoken", value: "RJnkSLcsF3HuO4krzfSjLVF8CIQUR9mJ" },
